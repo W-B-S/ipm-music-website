@@ -1,0 +1,22 @@
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+spring:
+  application:
+    name: web
+  datasource:
+    name: main
+    url: jdbc:mysql://127.0.0.1:3306/ipm?useUnicode=true&characterEncoding=utf8
+    hikari:
+      username: root
+      password: wangdachui#520
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/ipm?useUnicode=true&characterEncoding=utf8
+  thymeleaf:
+    prefix: classpath:/static/
+    suffix: .html
+logging:
+  level:
+    org.springframework: WARN
+    com.ip.web: WARN
+server:
+  port: 8088
