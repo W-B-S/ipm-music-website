@@ -1000,9 +1000,9 @@ a {
 	}
 }
 .wechat-result {
-	position: absolute;
-	right: 0;
-	top: -219px;
+	position: fixed;
+	left: 0;
+	top: 119px;
 	cursor: pointer;
 }
 #result-xcx-img {
